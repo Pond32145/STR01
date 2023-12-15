@@ -13,7 +13,12 @@ with col2:
     st.image('./pic/123.png')
 
 html_1 = """
-<div style="background-color:#52BE80;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<div style="
+background-color:#52BE80;
+padding:15px;
+border-radius:15px 15px 15px 15px;
+border-style:'solid';
+border-color:white">
 <center><h5>สถิติข้อมูลดอกไม้</h5></center>
 </div>
 """
