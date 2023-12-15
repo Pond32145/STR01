@@ -14,7 +14,7 @@ with col2:
 
 html_1 = """
 <div style="
-background-color:#52BE80;
+background-color:pink;
 padding:15px;
 border-radius:15px 15px 15px 15px;
 border-style:'solid';
