@@ -18,7 +18,8 @@ background-color:#52BE80;
 padding:15px;
 border-radius:15px 15px 15px 15px;
 border-style:'solid';
-border-color:white">
+color:white;
+border-color:black">
 <center><h5>สถิติข้อมูลดอกไม้</h5></center>
 </div>
 """
