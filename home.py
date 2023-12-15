@@ -2,6 +2,16 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 import requests
 
+def load_lottieurl(url: str):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+
+lot3="https://lottie.host/9d7858db-0b59-4395-ae0f-b57203577235/vTJKGelBz0.json"
+lottie3 = load_lottieurl(lot3)
+st_lottie(lottie3)
+
 st.title('การทดสอบเขียนเว็บด้วย Python')
 st.header('นายณภัทร ลอนุ')
 st.subheader('สาขาวิชาเทคโนโลยีสารสนเทศ')
@@ -94,12 +104,3 @@ if st.button("ทำนายผล"):
 else :
     st.button("ไม่ทำนายผล")
 
-def load_lottieurl(url: str):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
-
-lot3="https://lottie.host/9d7858db-0b59-4395-ae0f-b57203577235/vTJKGelBz0.json"
-lottie3 = load_lottieurl(lot3)
-st_lottie(lottie3)
