@@ -1,2 +1,2 @@
-import stringlit as st
+import streamlit as st
 st.header("Pond Naphat")
