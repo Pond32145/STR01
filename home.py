@@ -7,7 +7,7 @@ def load_lottieurl(url: str):
         return None
     return r.json()
 
-
+st.balloons()
 st.title('การทดสอบเขียนเว็บด้วย Python')
 st.header('นายณภัทร ลอนุ')
 st.subheader('สาขาวิชาเทคโนโลยีสารสนเทศ')
